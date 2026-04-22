@@ -1,0 +1,27 @@
+{
+  "name": "student-account-system",
+  "version": "1.0.0",
+  "description": "Node.js conversion of legacy COBOL Student Account Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --inspect index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "student",
+    "cobol",
+    "modernization"
+  ],
+  "author": "Legacy Code Modernization",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
